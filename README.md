@@ -6,4 +6,4 @@ During my Web Engineering course at University of the Punjab - PUCIT in 2022, I 
  - Local Server for hosting (Apache Tomcat)
  
 ## How to use and opearte?
-- Files for this application are under processing will be uploaded soon with the procedure to run it.
+- Files for this application are under uploading process.

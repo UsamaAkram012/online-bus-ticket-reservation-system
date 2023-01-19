@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app>
+
+	
+	<servlet>
+		<servlet-name>signin</servlet-name>
+		<servlet-class>signin</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>signin</servlet-name>
+		<url-pattern>/signin</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>signup</servlet-name>
+		<servlet-class>signup</servlet-class>
+	</servlet>
+
+
+	<servlet-mapping>
+		<servlet-name>signup</servlet-name>
+		<url-pattern>/signup</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>logout</servlet-name>
+		<servlet-class>logout</servlet-class>
+	</servlet>
+
+
+	<servlet-mapping>
+		<servlet-name>logout</servlet-name>
+		<url-pattern>/logout</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>AddingService</servlet-name>
+		<servlet-class>AddingService</servlet-class>
+	</servlet>
+
+
+	<servlet-mapping>
+		<servlet-name>AddingService</servlet-name>
+		<url-pattern>/AddingService</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ConfirmBooking</servlet-name>
+		<servlet-class>ConfirmBooking</servlet-class>
+	</servlet>
+
+
+	<servlet-mapping>
+		<servlet-name>ConfirmBooking</servlet-name>
+		<url-pattern>/ConfirmBooking</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>CancelBooking</servlet-name>
+		<servlet-class>CancelBooking</servlet-class>
+	</servlet>
+
+
+	<servlet-mapping>
+		<servlet-name>CancelBooking</servlet-name>
+		<url-pattern>/CancelBooking</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>AllBuses</servlet-name>
+		<servlet-class>AllBuses</servlet-class>
+	</servlet>
+
+
+	<servlet-mapping>
+		<servlet-name>AllBuses</servlet-name>
+		<url-pattern>/AllBuses</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>CancelService</servlet-name>
+		<servlet-class>CancelService</servlet-class>
+	</servlet>
+
+
+	<servlet-mapping>
+		<servlet-name>CancelService</servlet-name>
+		<url-pattern>/CancelService</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>FindingDelService</servlet-name>
+		<servlet-class>FindingDelService</servlet-class>
+	</servlet>
+
+
+	<servlet-mapping>
+		<servlet-name>FindingDelService</servlet-name>
+		<url-pattern>/FindingDelService</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>FindingBooking</servlet-name>
+		<servlet-class>FindingBooking</servlet-class>
+	</servlet>
+
+
+	<servlet-mapping>
+		<servlet-name>FindingBooking</servlet-name>
+		<url-pattern>/FindingBooking</url-pattern>
+	</servlet-mapping>
+
+	
+
+	<servlet>
+		<servlet-name>FindingDelBooking</servlet-name>
+		<servlet-class>FindingDelBooking</servlet-class>
+	</servlet>
+
+
+	<servlet-mapping>
+		<servlet-name>FindingDelBooking</servlet-name>
+		<url-pattern>/FindingDelBooking</url-pattern>
+	</servlet-mapping>
+
+</web-app>
